@@ -28,10 +28,26 @@ body {font-family: 'Poppins',sans-serif;}
     display: inline;
 }
 
-.logo { 
-    margin: auto;
+.navbar-custom {
+    padding: 0;
+}
+
+.logo {     
     color: white;
     font-weight: 700;
+}
+
+.navbar-light .navbar-brand{
+    color: white;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.nav-icon {
+    background-color: white;
 }
 
 .list {
@@ -42,6 +58,7 @@ body {font-family: 'Poppins',sans-serif;}
 
 .list-a {
     color: white;
+    margin-left: 30px;
 }
 
 .banner-text {
